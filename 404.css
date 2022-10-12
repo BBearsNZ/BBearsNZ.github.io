@@ -1,0 +1,21 @@
+btn {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2;
+    padding: 16px 40px;
+    border-radius: 300px;
+    display: inline-block;
+    font-weight: 200;
+    transition: all 0.4s ease-in-out;
+    background-size: 152% 100%;
+    background: #ad8ef5;
+    border: 2px solid #ad8ef5;
+  }
+  
+  .btn:hover {
+    background: transparent;
+    border-color: #ad8ef5;
+    color: #ad8ef5;
+  }
