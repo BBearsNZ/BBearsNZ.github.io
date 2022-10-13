@@ -101,7 +101,7 @@ nav ul li a:hover:after {
   width: 70%;
 }
 .content h1 span {
-  color: #ad8ef5;;
+  color: #ad8ef5;
 }
 .content p {
   width: 55%;
@@ -110,5 +110,19 @@ nav ul li a:hover:after {
   margin-bottom: 30px;
   line-height: 20px;
   position: center;
+}
+
+#footer {
+  background-color:#d1c0f8;
+  text-align: center;
+  width: 100%;
+}
+
+#footer h5 {
+  color: #fff;
+  font-size: 1vw;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 1em;
 }
 

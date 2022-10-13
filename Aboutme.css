@@ -111,7 +111,7 @@ nav ul li a:hover:after {
   margin-bottom: 30px;
   line-height: 20px;
   position: center;
-  text-align: center;
+  text-align: left;
 }
 
 
@@ -121,4 +121,19 @@ nav ul li a:hover:after {
   border-radius: 10%;
   object-fit: cover;
   position: center;
+
+}
+
+#footer {
+  background-color:#d1c0f8;
+  text-align: center;
+  width: 100%;
+}
+
+#footer h5 {
+  color: #fff;
+  font-size: 1vw;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 1em;
 }

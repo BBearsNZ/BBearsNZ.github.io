@@ -287,3 +287,17 @@ i:hover{
   text-decoration: none;
   cursor: pointer;
 }
+
+#footer {
+  background-color:#d1c0f8;
+  text-align: center;
+  width: 100%;
+}
+
+#footer h5 {
+  color: #fff;
+  font-size: 1vw;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 1em;
+}
