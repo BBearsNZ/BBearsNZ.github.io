@@ -111,18 +111,14 @@ nav ul li a:hover:after {
   margin-bottom: 30px;
   line-height: 20px;
   position: center;
+  text-align: center;
 }
 
-.aboutimage {
-  width: 100px;
-  height: 100px;
-  position: fixed-right;
-  top: 35%;
-  right: 8%;
-}
+
 .aboutimage img {
   width: 300px;
   height: 300px;
   border-radius: 10%;
   object-fit: cover;
+  position: center;
 }

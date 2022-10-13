@@ -1,21 +1,90 @@
-btn {
-    color: #fff;
-    font-size: 15px;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 2;
-    padding: 16px 40px;
-    border-radius: 300px;
-    display: inline-block;
-    font-weight: 200;
-    transition: all 0.4s ease-in-out;
-    background-size: 152% 100%;
-    background: #ad8ef5;
-    border: 2px solid #ad8ef5;
-  }
-  
-  .btn:hover {
-    background: transparent;
-    border-color: #ad8ef5;
-    color: #ad8ef5;
-  }
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+.btn {
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2;
+  padding: 16px 40px;
+  border-radius: 300px;
+  display: inline-block;
+  font-weight: 200;
+  transition: all 0.4s ease-in-out;
+  background-size: 152% 100%;
+  background: #ad8ef5;
+  border: 2px solid #ad8ef5;
+}
+
+.btn:hover {
+  background: transparent;
+  border-color: #ad8ef5;
+  color: #ad8ef5;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content .title {
+  color: #0a0a0a;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: inline-block;
+  margin-bottom: 20px;
+  background: linear-gradient(
+    120deg,
+    #53a2e2 20.69%,
+    #a382ff 50.19%,
+    #e056a7 79.69%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.content h1 {
+  color: #1f1f25;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 50px;
+  text-transform: inherit;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+}
+
+.content h1 span {
+  color: #ad8ef5;
+}
+
+.content p {
+  color: #202020;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  line-height: 10px;
+}
+
+.content h2 {
+  color: #56565e;
+  font-size: 10px;
+  font-weight: 100;
+  line-height: 10px;
+  text-transform: inherit;
+}
+
+#gif{
+  width: 35%;
+  height: 35%;
+}
